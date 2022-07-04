@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Panadería Pompeyo</title>
+        <!-- ENLACE BOOTSTRAP-->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <section class="bg-black text-white text-center py-1 ">
+                <div class="container">
+                    <p class="lead mt-2">Panaderia Chilena Artesanal</p>
+                </div>
+            </section>
+<!--
+            <nav class="navbar navbar-expand-lg bg-light py-5">
+                <div class="container">
+                  <a class="navbar-brand" href="#"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">NOSOTROS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">GALERIA</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">PEDIDOS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">PRODUCTOS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">CONTACTO</a>
+                      </li>
+                    </ul>
+                    <div class="container">
+                      <a class="navbar-brand" href="./index.html">
+                        <img src="./assets/logoheader.png" alt="Logo Panaderia" width="279" height="120" align="right">
+                      </a>
+                    </div>        
+                  </div>
+                </div>
+            </nav>
+            -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+              <div class="container">
+                <a class="navbar-brand py-2" href="#">
+                  <img src="./assets/logoheader.png" alt=".Logo Index" height="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">GALERIA</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">PEDIDOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">CONTACTO</a>
+                    </li>
+
+
+
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+        </header>
+        <main>
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./assets/slideshow-cheesecake.jpg" class="d-block w-100" alt="Pasteleria_Cheesecake">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./assets/slideshow-pie.jpg" class="d-block w-100" alt="Pasteleria_Pie de limon">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/slideshow-tarta.jpg" class="d-block w-100" alt="Pasteleria_Tarta">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+            <section class="container mt-5">
+                <div class="row g-5">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <article class="card">
+                            <img src="./assets/fotopanaderiamainbody.jpg" class="card-img-top" alt="imagen car Panaderia">
+                            <div class="card-body">
+                              <h5 class="card-title">PANADERÍA</h5>
+                              <p class="card-text">Las más exquisitas masas directamente de nuestro horno a su mesa.</p>
+                              <a href="#" class="btn btn-secondary">Go somewhere</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <article class="card">
+                            <img src="./assets/fotopasteleriamainbody.jpg" class="card-img-top" alt="imagen car Panaderia">
+                            <div class="card-body">
+                              <h5 class="card-title">PASTELERÍA</h5>
+                              <p class="card-text">Lo mejor de la pastelería chilena en tu hogar.</p>
+                              <a href="#" class="btn btn-secondary">Go somewhere</a>
+                            </div>
+                        </article>
+                    </div>
+
+
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <article class="card">
+                            <img src="./assets/fotobanqueteria-mainbody copy.jpg" class="card-img-top" alt="imagen car Panaderia">
+                            <div class="card-body">
+                              <h5 class="card-title">BANQUETERÍA</h5>
+                              <p class="card-text">Las mas ricas variedades en banquetería para tus eventos.</p>
+                              <a href="#" class="btn btn-secondary">Go somewhere</a>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        
+        <footer></footer>
+    </body>
+</html> 
